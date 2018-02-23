@@ -2,12 +2,12 @@
 import firebase from 'firebase'
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDn1WdXuXnGatq5A7uu3qTVZ6tX_tMtDX4",
-    authDomain: "leathernlaceus.firebaseapp.com",
-    databaseURL: "https://leathernlaceus.firebaseio.com",
-    projectId: "leathernlaceus",
-    storageBucket: "leathernlaceus.appspot.com",
-    messagingSenderId: "501919823905"
+    apiKey: "AIzaSyCiKC_zZNq1h7o_j0Jwixnq2irUN5CX7ww",
+    authDomain: "rosemusictrainnentserv.firebaseapp.com",
+    databaseURL: "https://rosemusictrainnentserv.firebaseio.com",
+    projectId: "rosemusictrainnentserv",
+    storageBucket: "",
+    messagingSenderId: "355228661198"
   };
 firebase.initializeApp(config);
 

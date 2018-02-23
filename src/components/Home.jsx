@@ -1,20 +1,28 @@
 import React from 'react'
-import HomeName from './HomeName'
+import styled from 'styled-components'
 
-const homeStyle = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
-  width: '100%',
-  minHeight: '100%',
-  backgroundColor: '',
-  paddingTop: '4em',
-  paddingBottom: '60px'
-};
+
+const MainDiv = styled.div `
+            .container {
+            font-family: sans-serif;
+            text-align: center;
+            width: 100%;
+            minHeight: 100%;
+            padding-top: 4em;
+            padding-bottom: 60px;
+            }
+        `;
 
 const Home = () => (
-  <div style={homeStyle}>
-    <HomeName />
-  </div>
+  <MainDiv>
+
+        <div className="container">
+
+            Home
+
+        </div>
+
+    </MainDiv>
 )
 
 export default Home

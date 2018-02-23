@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu, Responsive } from 'semantic-ui-react'
 import { elastic as MobileMenu } from 'react-burger-menu'
-import logo from '../assets/IDLogo.png'
+
 
 
 var menuItemStyle = {
@@ -71,7 +71,7 @@ export default class Header extends Component {
       style={menuStyle}>
 
         <Menu.Item>
-           LnL
+           bandCo
         </Menu.Item>
         <Menu.Menu
           position='right'
@@ -91,7 +91,7 @@ export default class Header extends Component {
           onClick={this.handleItemClick}
           style={menuItemStyle}
         >
-          <Link to='/bio'>Bio</Link>
+          <Link to='/bio'>About bC</Link>
         </Menu.Item>
         <Menu.Item
           name='showcase'
@@ -107,8 +107,17 @@ export default class Header extends Component {
           onClick={this.handleItemClick}
           style={menuItemStyle}
         >
-          <Link to='/contact'>Contact Me</Link>
+          <Link to='/contact'>Contact bC</Link>
         </Menu.Item>
+        <Menu.Item
+          name='login'
+          active={activeItem === 'login'}
+          onClick={this.handleItemClick}
+          style={menuItemStyle}
+        >
+          <Link to='/login'>Login</Link>
+        </Menu.Item>
+        
         </Menu.Menu>
       </Menu>
       
@@ -120,12 +129,13 @@ export default class Header extends Component {
           >
             <MobileMenu styles={ styles } isOpen={false}>
               <Link to='/'>Home</Link>
-              <Link to='/bio'>Bio</Link>
+              <Link to='/bio'>About bC</Link>
               <Link to='/showcase'>Showcase</Link>
-              <Link to='/contact'>Contact Me</Link>
+              <Link to='/contact'>Contact bC</Link>
+              <Link to='/login'>Login</Link>
             </MobileMenu>
             <Menu.Item position='right'>
-              LnL
+              bC
             </Menu.Item>
         </Menu>
         </Responsive>

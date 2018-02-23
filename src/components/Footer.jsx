@@ -18,11 +18,11 @@ const Home = () => (
 
     <div style={ containerStyle }>
     <div>
-    Live Band Digital Press Kit for:
+    bandCo Entertainment & Training
     </div>
 
     <div>
-    Leather & Lace 
+    Live Music and Open Mics -- Live Music Training
     </div>
     </div>
 
